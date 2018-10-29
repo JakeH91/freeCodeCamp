@@ -1,0 +1,22 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-width: 500px;
+}
+
+#image {
+  max-width: 80%;
+  min-width: 300px;
+}
+
+#tribute-info {
+  width: 80%;
+}
