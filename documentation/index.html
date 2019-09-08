@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styling.css">
-    <title>Documentation</title>
+    <title>Free Code Camp</title>
 </head>
 
 <body>
     <nav id="navbar">
-        <header>Documentation</header>
+        <header>Free Code Camp</header>
         <div id="links">
             <a class="nav-link" href="#fcc">FCC</a>
             <a class="nav-link" href="#html">HTML</a>
@@ -35,7 +35,7 @@
         </section>
         <section class="main-section" id="html">
             <header>HTML</header>
-            <p>HTML is the skeleton of a webpage. Each 'bone' in the skeleton is defined by a tag. In general, all webpages have a basic skeleton that looks as follows:</p>
+            <p>HTML is the <em>skeleton</em> of a webpage. Each 'bone' in the skeleton is defined by a tag. In general, all webpages have a basic skeleton that looks as follows:</p>
             <br>
             <code>
                 <pre>&lt;head&gt;</pre>
@@ -49,30 +49,64 @@
                     <pre>   &lt;/main&gt;</pre>
                 <pre>&lt;/body&gt;</pre>
             </code>
-            <p></p>
-            <code></code>
+            <p>The word tag mentioned above refers to everything with a &lt; and a &gt;, such as &lt;section&gt;. A lot can be said, and <em>has</em> been said about all the different tags that HTML has to offer, so I won't go into in detail. If you want to find out more, go to <a href="https://www.w3schools.com/tags/ref_byfunc.asp">w3schools</a>.</p>
+            <p>One thing to note is headers and paragraphs. HTML has a nice inbuilt way of creating hierarchy in it's skeleton. It comes with a number of header tags with preset text sizes (which can be changed using <a href="#css">css</a>) to define main titles of sections (&lt;h1&gt;...&lt;h6&gt; getting progressively smaller) as well as a paragraph tag (&lt;p&gt;) to indicate a block of text. A typical section might look like this:</p>
+            <code>
+                <pre>&lt;section&gt;</pre>
+                    <pre>   &lt;h1&gt;Main title&lt;/h1&gt;</pre>
+                    <pre>   &lt;p&gt;A lot of very interesting text...&lt;/p&gt;</pre>
+                    <pre>   &lt;h3&gt;Not quite as important a heading&lt;/h3&gt;</pre>
+                    <pre>   &lt;p&gt;A lot of slightly interesting text...&lt;/p&gt;</pre>
+                    <pre>   &lt;h3&gt;A heading of equal importance to the previous heading&lt;/h3&gt;</pre>
+                    <pre>   &lt;p&gt;A lot of equally interesting text...&lt;/p&gt;</pre>
+                <pre>&lt;/section&gt;</pre>
+            </code>
+            <p>With no styling at all, the above would appear as follows:</p>
+            <div class="example">
+                <h1>Main title</h1>
+                <p>A lot of very interesting text...</p>
+                <h3>Not quite as important a heading</h3>
+                <p>A lot of slightly interesting text...</p>
+                <h3>A heading of equal importance to the previous heading</h3>
+                <p>A lot of equally interesting text...</p>
+            </div>
         </section>
         <section class="main-section" id="css">
             <header>CSS</header>
-            <p></p>
-            <p></p>
-            <code></code>
+            <p>CSS is the <em>skin</em> of the webpage. It is what you write to make the page look the way you want it too. To target specific elements of a page, you can use that elements tag (&lt;h1&gt; or &lt;p&gt;, for example).</p>
+            <code>
+                <pre>h1 {</pre>
+                    <pre>   font-size: 18px;</pre>
+                    <pre>   color: purple;</pre>
+                <pre>}</pre>
+            </code>
+            <p>You can style both the way an element looks, as well as it's position on the page</p>
+            <code>
+                <pre>h1 {</pre>
+                    <pre>   position: absolute;</pre>
+                    <pre>   top: 10px;</pre>
+                    <pre>   left: 25px;</pre>
+                <pre>}</pre>
+            </code>
         </section>
         <section class="main-section" id="javascript">
             <header>JavaScript</header>
-            <p></p>
-            <p></p>
-            <code></code>
+            <p>Javascript is the <em>muscle</em> of the webpage. It allows you to define how any element on a page behaves. You do this by writing functions.</p>
+            <code>
+                <pre>function <em>functionName</em>(){</pre>
+                    <pre>   ...the desired behaviour</pre>
+                <pre>}</pre>
+            </code>
+            <p>There are a billion and one things to say about javascript (JS to his friends), and an infinite number of resources that you can use to learn the language, so no need to go into it here. FreeCodeCamp is a great way to introduce yourself to this (as well as <a href="#css">CSS</a> and <a href="#html">HTML</a>)</p>
         </section>
         <section class="main-section" id="meetup">
             <header>MeetUp</header>
-            <p></p>
-            <p></p>
-            <code></code>
+            <p>If you're in Trondheim and want to get to know other people learning to code, check out the meetups, every Sunday, 15:00-17:00 at WorkWork.</p>
+            <p>Find out more on our <a href="https://www.facebook.com/groups/free.code.camp.trondheim/">Facebook Page</a>.</p>
         </section>
         <section class="main-section" id="next">
             <header>Next</header>
-            <p></p>
+            <p>So what should you do next? Go to <a href="https://www.freecodecamp.org/">https://www.freecodecamp.org/</a>, create an account and get coding!</p>
             <p></p>
             <code></code>
         </section>
