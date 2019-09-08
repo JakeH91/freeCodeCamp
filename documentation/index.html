@@ -5,46 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styling.css">
-    <title>Survey Form</title>
+    <title>Documentation</title>
 </head>
 
 <body>
-    <div id="main">
-        <h1 id="title">Survey Form</h1>
-        <p id="description">This is a survey that serves no purpose other than for me to learn how to create forms!</p>
-        <form action="/submit-form" id="survey-form">
-            <label for="name" id="name-label">Name:</label>
-            <input id="name" required type="text" placeholder="Enter name...">
-            <label for="email" id="email-label">Email:</label>
-            <input id="email" required type="email" placeholder="Enter email...">
-            <label for="number" id="number-label">Number:</label>
-            <input id="number" required min="0" max="100" type="number" placeholder="Pick or enter a number...">
-            <label for="dropdown" id="dropdown-label">Choose One:</label>
-            <select id="dropdown">
-                <option value="drop">Drop</option>
-                <option value="down">Down</option>
-            </select>
-            <div id="radio-buttons">
-                <label for="radio-1">
-                    <input id="radio-1" type="radio" name="this-or-that" value="this">This
-                </label>
-                <label for="radio-2">
-                    <input id="radio-2" type="radio" name="this-or-that" value="that">That
-                </label>
-            </div>
-            <div id="checkboxes">
-                <label for="checkbox-1">
-                    <input id="checkbox-1" type="checkbox" name="this-and-that" value="this">This
-                </label>
-                <label for="checkbox-2">
-                    <input id="checkbox-2" type="checkbox" name="this-and-that" value="that">That
-                </label>
-            </div>
-            <label for="comments" id="comments-label">Comments:</label>
-            <textarea id="comments" required placeholder="Enter additional comments..."></textarea>
-            <button type="submit" id="submit">Submit</button>
-        </form>
-
+    <nav id="navbar">
+        <h1>Documentation</h1>
+        <a id="nav-link" href="#abc">Abc</a>
+        <a id="nav-link" href="#def">Def</a>
+        <a id="nav-link" href="#ghi">Ghi</a>
+        <a id="nav-link" href="#jkl">Jkl</a>
+        <a id="nav-link" href="#mno">Mno</a>
+    </nav>
+    <main id="main-doc">
+        <section id="main-section abc">
+            <h1>Abc</h1>
+            <p></p>
+            <p></p>
+            <code></code>
+        </section>
+        <section id="main-section def">
+            <h1>Def</h1>
+            <p></p>
+            <p></p>
+            <code></code>
+        </section>
+        <section id="main-section ghi">
+            <h1>Ghi</h1>
+            <p></p>
+            <p></p>
+            <code></code>
+        </section>
+        <section id="main-section jkl">
+            <h1>Jkl</h1>
+            <p></p>
+            <p></p>
+            <code></code>
+        </section>
+        <section id="main-section mno">
+            <h1>Mno</h1>
+            <p></p>
+            <p></p>
+            <code></code>
+        </section>
     </div>
 
     <!-- JAVASCRIPT STUFF -->
